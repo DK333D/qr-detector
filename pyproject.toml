@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qr-detector"
+version = "0.1.0"
+description = ""
+authors = ["Carbon225 <carbon225@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "qr_detector"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
