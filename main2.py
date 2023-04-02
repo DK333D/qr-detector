@@ -84,6 +84,7 @@ def main():
             # next_time += timestamp
             counter=0
             if record_after_aim:
+                print("Shoot")
                 out.release()
                 video_name=functions.generateVideoName(number=len(QRcollected),postfix="aftershoot")
                 out = functions.get_output(codec, fps, out, video_name)
